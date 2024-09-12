@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Omar Chibwana</title>
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        />
+        <link rel="stylesheet" href="./public/style.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: "#da373d",
+                        },
+                        fontFamily: {
+                            inter: ["Inter", "system-ui"],
+                        },
+                    },
+                    screens: {
+                        sm: "640px",
+                        md: "768px",
+                        lg: "1024px",
+                        xl: "1280px",
+                        "2xl": "1536px",
+                    },
+                },
+            };
+        </script>
+    </head>
+    <body
+        class="font-inter font-light bg-[#d2d2d2] bg-[repeating-linear-gradient(to_right,transparent_0_100px,#25283b22_100px_101px),repeating-linear-gradient(to_bottom,transparent_0_100px,#25283b22_100px_101px)]"
+    >
+        <header class="fixed top-1 left-1 right-1 z-50 p-4">
+            <div class="container mx-auto flex justify-center items-center">
+                <nav class="space-x-10">
+                    <a href="#about" class="hover:text-gray-400">About</a>
+                    <a href="#projects" class="hover:text-gray-400">Projects</a>
+                    <a href="#contact" class="hover:text-gray-400">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <main class="pl-3 pr-3">
+            <div class="pt-20 h-screen banner">
+                <div class="slider" style="--quantity: 11">
+                    <div class="item" style="--position: 1">
+                        <img
+                            src="./public/images/html.png"
+                            alt=""
+                            class="max-w-none"
+                        />
+                    </div>
+                    <div class="item" style="--position: 2">
+                        <img
+                            src="./public/images/css.png"
+                            alt=""
+                            class="max-w-none"
+                        />
+                    </div>
+                    <div class="item" style="--position: 3">
+                        <img
+                            src="./public/images/js.png"
+                            alt=""
+                            class="max-w-none"
+                        />
+                    </div>
+                    <div class="item" style="--position: 4">
+                        <img
+                            src="./public/images/php.png"
+                            alt=""
+                            class="max-w-none"
+                        />
+                    </div>
+                    <div class="item" style="--position: 5">
+                        <img
+                            src="./public/images/node.png"
+                            alt=""
+                            class="max-w-none"
+                        />
+                    </div>
+                    <div class="item" style="--position: 6">
+                        <img
+                            src="./public/images/react.png"
+                            alt=""
+                            class="max-w-none"
+                        />
+                    </div>
+                    <div class="item" style="--position: 7">
+                        <img
+                            src="./public/images/flutter.png"
+                            alt=""
+                            class="max-w-none"
+                        />
+                    </div>
+                    <div class="item" style="--position: 8">
+                        <img
+                            src="./public/images/mongo.png"
+                            alt=""
+                            class="max-w-none"
+                        />
+                    </div>
+                    <div class="item" style="--position: 9">
+                        <img
+                            src="./public/images/next.png"
+                            alt=""
+                            class="max-w-none"
+                        />
+                    </div>
+                    <div class="item" style="--position: 10">
+                        <img
+                            src="./public/images/sql.png"
+                            alt=""
+                            class="max-w-none"
+                        />
+                    </div>
+                    <div class="item" style="--position: 11">
+                        <img
+                            src="./public/images/kotlin.png"
+                            alt=""
+                            class="max-w-none"
+                        />
+                    </div>
+                </div>
+                <div class="content max-w-screen-lg">
+                    <h1
+                        class="leading-none font-extrabold relative"
+                        data-content="COMPUTER ENGINEER"
+                    >
+                        COMPUTER ENGINEER
+                    </h1>
+                    <div class="author text-right max-w-[200px]">
+                        <h2 class="text-3xl">Omar Chibwana</h2>
+                        <p><strong>Full Stack Developer</strong></p>
+                        <p class="font-light">
+                            Specialized in backend and mobile/web app
+                            development using Flutter and the MERN stack
+                        </p>
+                    </div>
+                    <div class="model"></div>
+                </div>
+            </div>
+            <div class="pt-20 h-screen" id="projects">Projects</div>
+            <div class="pt-20 h-screen" id="about">About</div>
+            <div class="pt-20 h-screen" id="contact">Contact</div>
+        </main>
+        <footer></footer>
+    </body>
+</html>
